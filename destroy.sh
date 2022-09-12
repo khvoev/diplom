@@ -21,3 +21,4 @@ unset vm_gitlab_private&& unset vm_monitoring_private&& unset vm_proxy_private&&
 
 sudo sed -i '' -e '/^podkovka.ru.net/d' ~/.ssh/known_hosts
 sudo networksetup -setdnsservers Wi-Fi "Empty"&& sudo networksetup -setdnsservers USB\ 10/100/1000\ LAN "Empty"
+  
