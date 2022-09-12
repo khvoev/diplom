@@ -56,3 +56,4 @@ sleep 5
 ansible-playbook playbook.yml -i hosts
 # return to home directory
 cd ../
+ 
