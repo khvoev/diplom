@@ -15,7 +15,7 @@ db02.podkovka.ru.net mysql_server_id=2 mysql_replication_role=slave
 ansible_host=192.168.30.18
 ansible_ssh_common_args='-o StrictHostKeyChecking=no -o UserKnownHostsFile=/dev/null -o ProxyCommand="ssh -W %h:%p -q podkovka@podkovka.ru.net -o StrictHostKeyChecking=no"'
 
-[wordpress]
+[wordpress.]
 app.podkovka.ru.net
 [wordpress:vars]
 ansible_host=192.168.10.14
